@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#5C3997">
+  <title>MenoCare — Suplemento Natural para o Bem-Estar Feminino na Menopausa</title>
+  <meta name="description" content="MenoCare é um suplemento alimentar com vitaminas e minerais que auxiliam no bem-estar feminino durante a menopausa. Fórmula natural, sem hormônios. Garantia de 30 dias.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MenoCare — Bem-estar Feminino na Menopausa">
+  <meta property="og:description" content="Suplemento alimentar natural com vitaminas e minerais. Garantia de 30 dias.">
+  <meta property="og:image" content="images/imgi_3_imagem_secaoHero.webp">
+
+  <!-- Preload do hero (LCP image) pra carregar instant -->
+  <link rel="preload" as="image" href="images/imgi_3_imagem_secaoHero.webp" fetchpriority="high">
+
+  <!-- Font: Poppins, igual site original -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/webp" href="images/imgi_1_default.webp">
+
+  <!-- SVG Sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></symbol>
+      <symbol id="i-check-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="16 10 11 15 8 12"/></symbol>
+      <symbol id="i-x-circle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></symbol>
+      <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></symbol>
+      <symbol id="i-star" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
+      <symbol id="i-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></symbol>
+      <symbol id="i-truck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></symbol>
+      <symbol id="i-credit-card" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></symbol>
+      <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></symbol>
+      <symbol id="i-leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19.2 2.96c1.4 9.3-3.7 19.4-12.4 19.4-1.7 0-3.6-.8-5.8-2.4M2 22c1.5-4.3 4.5-8 8-10"/></symbol>
+      <symbol id="i-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+      <symbol id="i-thermometer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"/></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></symbol>
+      <symbol id="i-smile-frown" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M16 16s-1.5-2-4-2-4 2-4 2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></symbol>
+      <symbol id="i-droplet" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></symbol>
+      <symbol id="i-activity" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></symbol>
+      <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></symbol>
+      <symbol id="i-sparkles" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.8L20 11l-6.1 2.2L12 19l-1.9-5.8L4 11l6.1-2.2z"/><path d="M19 3l.6 1.9L21 5l-1.4.6L19 7l-.6-1.4L17 5l1.4-.6z"/><path d="M19 17l.6 1.4L21 19l-1.4.6L19 21l-.6-1.4L17 19l1.4-.6z"/></symbol>
+      <symbol id="i-feather" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></symbol>
+      <symbol id="i-chevron-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></symbol>
+      <symbol id="i-zap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></symbol>
+      <symbol id="i-flask" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2v6L4 18a4 4 0 0 0 4 5h8a4 4 0 0 0 4-5L15 8V2"/><line x1="8" y1="2" x2="16" y2="2"/></symbol>
+      <symbol id="i-award" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></symbol>
+    </defs>
+  </svg>
+</head>
+
+<body>
+
+  <!-- ============ TOPBAR ============ -->
+  <div class="topbar">
+    <span class="topbar-inner">
+      <strong>FRETE GRÁTIS HOJE</strong> &nbsp;+&nbsp; GARANTIA DE 30 DIAS &nbsp;•&nbsp; APROVEITE ENQUANTO DURA
+    </span>
+  </div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header">
+    <div class="header-inner">
+      <a href="#" class="logo">
+        <img src="images/imgi_1_default.webp" alt="MenoCare" width="120" height="47">
+      </a>
+      <a href="#kits" class="header-cta">
+        QUERO COMPRAR
+        <svg class="icon-sm" aria-hidden="true"><use href="#i-arrow-right"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-intro">
+          <span class="hero-badge">Fórmula Exclusiva · 100% Natural</span>
+
+          <h1>Reencontre seu <em>equilíbrio</em>, sua <em>energia</em> e seu <em>conforto</em> na menopausa.</h1>
+
+          <p class="hero-sub">
+            MenoCare é um suplemento alimentar formulado com vitaminas, minerais e ativos naturais que auxiliam o organismo feminino durante a menopausa — sem hormônios, sem efeitos indesejados, com tecnologia de absorção avançada.
+          </p>
+        </div>
+
+        <div class="hero-image-wrap">
+          <img class="hero-image" src="images/imgi_3_imagem_secaoHero.webp" alt="MenoCare - Suplemento alimentar para menopausa" width="675" height="772" fetchpriority="high" decoding="async">
+          <div class="hero-image-badge hero-image-badge-1">
+            <svg class="icon"><use href="#i-zap"/></svg>
+            <span><strong>Alta</strong> absorção</span>
+          </div>
+          <div class="hero-image-badge hero-image-badge-2">
+            <svg class="icon" style="color: var(--success)"><use href="#i-leaf"/></svg>
+            <span>Sem hormônios</span>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <div class="hero-checks">
+            <div class="hero-check"><span class="hero-check-icon"><svg aria-hidden="true"><use href="#i-check"/></svg></span> Auxilia no conforto térmico</div>
+            <div class="hero-check"><span class="hero-check-icon"><svg aria-hidden="true"><use href="#i-check"/></svg></span> Apoia a vitalidade feminina</div>
+            <div class="hero-check"><span class="hero-check-icon"><svg aria-hidden="true"><use href="#i-check"/></svg></span> Contribui para pele e cabelos</div>
+            <div class="hero-check"><span class="hero-check-icon"><svg aria-hidden="true"><use href="#i-check"/></svg></span> Favorece o sono tranquilo</div>
+            <div class="hero-check"><span class="hero-check-icon"><svg aria-hidden="true"><use href="#i-check"/></svg></span> Apoia o equilíbrio emocional</div>
+            <div class="hero-check"><span class="hero-check-icon"><svg aria-hidden="true"><use href="#i-check"/></svg></span> Fórmula sem hormônios</div>
+          </div>
+
+          <div class="hero-cta-row">
+            <a href="#kits" class="btn btn-primary btn-lg">QUERO TER MAIS BEM-ESTAR <svg class="icon-sm" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+            <div class="hero-rating">
+              <span class="stars">
+                <svg class="icon-sm"><use href="#i-star"/></svg>
+                <svg class="icon-sm"><use href="#i-star"/></svg>
+                <svg class="icon-sm"><use href="#i-star"/></svg>
+                <svg class="icon-sm"><use href="#i-star"/></svg>
+                <svg class="icon-sm"><use href="#i-star"/></svg>
+              </span>
+              <span><strong>4,9/5</strong> · +2.800 avaliações</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRUST STRIP ============ -->
+  <section class="trust-strip">
+    <div class="container">
+      <div class="trust-strip-grid">
+        <div class="trust-item">
+          <div class="trust-item-icon"><svg aria-hidden="true"><use href="#i-truck"/></svg></div>
+          <div class="trust-item-text"><strong>Frete grátis</strong>p/ todo Brasil</div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-item-icon"><svg aria-hidden="true"><use href="#i-credit-card"/></svg></div>
+          <div class="trust-item-text"><strong>Em até 12x</strong>no cartão</div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-item-icon"><svg aria-hidden="true"><use href="#i-shield"/></svg></div>
+          <div class="trust-item-text"><strong>Garantia 30 dias</strong>ou seu dinheiro de volta</div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-item-icon"><svg aria-hidden="true"><use href="#i-leaf"/></svg></div>
+          <div class="trust-item-text"><strong>100% Natural</strong>sem hormônios</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROBLEMA ============ -->
+  <section class="section problem-section">
+    <div class="container">
+      <div class="section-intro">
+        <span class="section-eyebrow">Cuidado e bem-estar</span>
+        <h2>A menopausa é uma fase natural — e você merece vivê-la bem</h2>
+        <p>É uma fase de transição que pede atenção ao bem-estar. Cuidar da alimentação, dos hábitos e da suplementação adequada faz toda a diferença na qualidade de vida.</p>
+      </div>
+      <div class="problem-list">
+        <div class="problem-item">
+          <span class="problem-item-icon"><svg aria-hidden="true"><use href="#i-thermometer"/></svg></span>
+          <span class="problem-item-text">Ondas de calor que aparecem do nada</span>
+        </div>
+        <div class="problem-item">
+          <span class="problem-item-icon"><svg aria-hidden="true"><use href="#i-moon"/></svg></span>
+          <span class="problem-item-text">Noites mal dormidas e cansaço durante o dia</span>
+        </div>
+        <div class="problem-item">
+          <span class="problem-item-icon"><svg aria-hidden="true"><use href="#i-smile-frown"/></svg></span>
+          <span class="problem-item-text">Irritação e oscilações de humor</span>
+        </div>
+        <div class="problem-item">
+          <span class="problem-item-icon"><svg aria-hidden="true"><use href="#i-droplet"/></svg></span>
+          <span class="problem-item-text">Ressecamento e desconforto íntimo</span>
+        </div>
+        <div class="problem-item">
+          <span class="problem-item-icon"><svg aria-hidden="true"><use href="#i-activity"/></svg></span>
+          <span class="problem-item-text">Sensação de inchaço e desconfortos pelo corpo</span>
+        </div>
+        <div class="problem-item">
+          <span class="problem-item-icon"><svg aria-hidden="true"><use href="#i-heart"/></svg></span>
+          <span class="problem-item-text">Pouca disposição e queda na libido</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BENEFITS ============ -->
+  <section class="section section-lg">
+    <div class="container">
+      <div class="section-intro">
+        <span class="section-eyebrow">Por que MenoCare?</span>
+        <h2>Bem-estar feminino com a ciência da natureza</h2>
+        <p>Cada cápsula reúne ativos naturais cuidadosamente selecionados para apoiar o organismo da mulher durante a menopausa.</p>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <img class="benefit-image" src="images/imgi_5_beneficio01_secaoBeneficios.webp" alt="Conforto nas ondas de calor" width="640" height="230" loading="lazy" decoding="async">
+          <div class="benefit-content">
+            <h3>Conforto nas ondas<br>de calor e suor noturno</h3>
+            <p>Auxilia o organismo a lidar com as sensações de calor súbito e suor durante o sono.</p>
+          </div>
+        </div>
+        <div class="benefit-card">
+          <img class="benefit-image" src="images/imgi_6_beneficio02_secaoBeneficios.webp" alt="Vitalidade e disposição" width="640" height="230" loading="lazy" decoding="async">
+          <div class="benefit-content">
+            <h3>Mais vitalidade<br>e disposição</h3>
+            <p>Apoia a vitalidade feminina e a sensação de bem-estar no dia a dia.</p>
+          </div>
+        </div>
+        <div class="benefit-card">
+          <img class="benefit-image" src="images/imgi_7_beneficio03_secaoBeneficios.webp" alt="Pele, cabelos e unhas mais saudáveis" width="640" height="230" loading="lazy" decoding="async">
+          <div class="benefit-content">
+            <h3>Pele, cabelos e unhas<br>mais saudáveis</h3>
+            <p>Vitaminas e minerais que contribuem para uma aparência revitalizada com pele firme, cabelos saudáveis e unhas fortalecidas.</p>
+          </div>
+        </div>
+        <div class="benefit-card">
+          <img class="benefit-image" src="images/imgi_8_beneficio04_secaoBeneficios.webp" alt="Conforto e leveza no corpo" width="640" height="230" loading="lazy" decoding="async">
+          <div class="benefit-content">
+            <h3>Mais conforto e leveza<br>no corpo</h3>
+            <p>Auxilia o organismo a manter o conforto corporal, promovendo bem-estar constante no dia a dia.</p>
+          </div>
+        </div>
+        <div class="benefit-card">
+          <img class="benefit-image" src="images/imgi_9_beneficio05_secaoBeneficios.webp" alt="Noites mais tranquilas" width="640" height="230" loading="lazy" decoding="async">
+          <div class="benefit-content">
+            <h3>Noites mais tranquilas<br>e reparadoras</h3>
+            <p>Favorece noites de sono mais profundas, garantindo um descanso completo e disposição ao despertar.</p>
+          </div>
+        </div>
+        <div class="benefit-card">
+          <img class="benefit-image" src="images/imgi_10_beneficio06_secaoBeneficios.webp" alt="Equilíbrio emocional" width="640" height="230" loading="lazy" decoding="async">
+          <div class="benefit-content">
+            <h3>Mais calma e<br>equilíbrio emocional</h3>
+            <p>Contribui para a sensação de calma, ajudando a controlar a irritação, ansiedade e o estresse do dia a dia.</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align:center; margin-top: 2.5rem;">
+        <a href="#kits" class="btn btn-primary btn-lg">QUERO EXPERIMENTAR MENOCARE <svg class="icon-sm" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TECNOLOGIA ============ -->
+  <section class="section section-lg tech-section">
+    <div class="container">
+      <div class="tech-grid">
+        <div>
+          <img class="tech-image" src="images/imgi_1_imagem_secaoTecnologia.webp" alt="Tecnologia de cápsula com alta absorção" width="640" height="918" loading="lazy" decoding="async">
+        </div>
+        <div class="tech-content">
+          <span class="section-eyebrow">Fórmula Premium</span>
+          <h2>Cápsula de fácil absorção pelo organismo</h2>
+
+          <div class="tech-stat">
+            <div class="tech-stat-number">15+</div>
+            <div class="tech-stat-label">vitaminas e minerais<br>em cada cápsula</div>
+          </div>
+
+          <p>Nossa fórmula foi desenvolvida para favorecer a absorção dos nutrientes pelo organismo, ajudando o corpo a aproveitar melhor cada vitamina e mineral presente em cada dose.</p>
+
+          <div class="tech-feature">
+            <div class="tech-feature-icon"><svg aria-hidden="true"><use href="#i-zap"/></svg></div>
+            <div>
+              <strong>Liberação otimizada</strong>
+              <span>Cada cápsula libera os ativos de forma gradual e direcionada.</span>
+            </div>
+          </div>
+          <div class="tech-feature">
+            <div class="tech-feature-icon"><svg aria-hidden="true"><use href="#i-flask"/></svg></div>
+            <div>
+              <strong>Fórmula testada em laboratório</strong>
+              <span>Padronização garantida em cada lote produzido.</span>
+            </div>
+          </div>
+          <div class="tech-feature">
+            <div class="tech-feature-icon"><svg aria-hidden="true"><use href="#i-leaf"/></svg></div>
+            <div>
+              <strong>Ingredientes naturais</strong>
+              <span>100% sem hormônios e sem ingredientes sintéticos.</span>
+            </div>
+          </div>
+
+          <div style="margin-top: 1.5rem;">
+            <a href="#kits" class="btn btn-primary">QUERO MEU MENOCARE <svg class="icon-sm" aria-hidden="true"><use href="#i-arrow-right"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ INGREDIENTES ============ -->
+  <section class="section section-lg ingredients-section">
+    <div class="container">
+      <div class="section-intro">
+        <span class="section-eyebrow">Composição Natural</span>
+        <h2>Mais de 15 vitaminas e minerais essenciais</h2>
+        <p>Cada ativo foi escolhido pelo seu papel reconhecido no bem-estar feminino.</p>
+      </div>
+
+      <div class="ingredients-grid">
+        <div class="ingredient-card">
+          <img src="images/imgi_33_ativo01_secaoAtivos.webp" alt="" width="300" height="300" loading="lazy" decoding="async">
+          <h4>Laranja Moro</h4>
+          <p>Antocianinas antioxidantes</p>
+        </div>
+        <div class="ingredient-card">
+          <img src="images/imgi_34_ativo02_secaoAtivos.webp" alt="" width="300" height="300" loading="lazy" decoding="async">
+          <h4>Cobre</h4>
+          <p>Apoia o colágeno</p>
+        </div>
+        <div class="ingredient-card">
+          <img src="images/imgi_35_ativo03_secaoAtivos.webp" alt="" width="300" height="300" loading="lazy" decoding="async">
+          <h4>Cálcio</h4>
+          <p>Saúde óssea</p>
+        </div>
+        <div class="ingredient-card">
+          <img src="images/imgi_36_ativo04_secaoAtivos.webp" alt="" width="300" height="300" loading="lazy" decoding="async">
+          <h4>Manganês</h4>
+          <p>Metabolismo natural</p>
+        </div>
+        <div class="ingredient-card">
+          <img src="images/imgi_37_ativo05_secaoAtivos.webp" alt="" width="300" height="300" loading="lazy" decoding="async">
+          <h4>Vitamina A</h4>
+          <p>Pele e visão</p>
+        </div>
+        <div class="ingredient-card">
+          <img src="images/imgi_38_ativo06_secaoAtivos.webp" alt="" width="300" height="300" loading="lazy" decoding="async">
+          <h4>Vitamina C</h4>
+          <p>Imunidade</p>
+        </div>
+        <div class="ingredient-card">
+          <img src="images/imgi_36_ativo04_secaoAtivos.webp" alt="" width="300" height="300" loading="lazy" decoding="async">
+          <h4>Vitamina D</h4>
+          <p>Ossos e humor</p>
+        </div>
+        <div class="ingredient-card">
+          <img src="images/imgi_37_ativo05_secaoAtivos.webp" alt="" width="300" height="300" loading="lazy" decoding="async">
+          <h4>Vitamina E</h4>
+          <p>Antioxidante</p>
+        </div>
+        <div class="ingredient-card">
+          <img src="images/imgi_38_ativo06_secaoAtivos.webp" alt="" width="300" height="300" loading="lazy" decoding="async">
+          <h4>Complexo B</h4>
+          <p>Energia e equilíbrio</p>
+        </div>
+        <div class="ingredient-card">
+          <img src="images/imgi_33_ativo01_secaoAtivos.webp" alt="" width="300" height="300" loading="lazy" decoding="async">
+          <h4>Tiamina (B1)</h4>
+          <p>Metabolismo</p>
+        </div>
+        <div class="ingredient-card">
+          <img src="images/imgi_34_ativo02_secaoAtivos.webp" alt="" width="300" height="300" loading="lazy" decoding="async">
+          <h4>Riboflavina (B2)</h4>
+          <p>Saúde celular</p>
+        </div>
+        <div class="ingredient-card">
+          <img src="images/imgi_35_ativo03_secaoAtivos.webp" alt="" width="300" height="300" loading="lazy" decoding="async">
+          <h4>Niacina (B3)</h4>
+          <p>Sistema nervoso</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMPARAÇÃO ============ -->
+  <section class="section compare-section">
+    <div class="container container-narrow">
+      <div class="section-intro">
+        <span class="section-eyebrow">Por que escolher MenoCare</span>
+        <h2>Uma escolha inteligente para o seu bem-estar</h2>
+      </div>
+
+      <div class="compare-table">
+        <div class="compare-row">
+          <div class="compare-cell header" style="justify-content: flex-start; text-align: left;">Característica</div>
+          <div class="compare-cell header menocare-head">MenoCare</div>
+          <div class="compare-cell header">Outras opções</div>
+        </div>
+        <div class="compare-row">
+          <div class="compare-cell label">100% natural sem hormônios</div>
+          <div class="compare-cell menocare"><span class="compare-yes"><svg class="icon-sm"><use href="#i-check-circle"/></svg> Sim</span></div>
+          <div class="compare-cell center"><span class="compare-no"><svg class="icon-sm"><use href="#i-x-circle"/></svg> Nem sempre</span></div>
+        </div>
+        <div class="compare-row">
+          <div class="compare-cell label">Prático de tomar todo dia</div>
+          <div class="compare-cell menocare"><span class="compare-yes"><svg class="icon-sm"><use href="#i-check-circle"/></svg> 2 cápsulas</span></div>
+          <div class="compare-cell center"><span class="compare-no"><svg class="icon-sm"><use href="#i-x-circle"/></svg> Trabalhoso</span></div>
+        </div>
+        <div class="compare-row">
+          <div class="compare-cell label">Cápsula de fácil absorção</div>
+          <div class="compare-cell menocare"><span class="compare-yes"><svg class="icon-sm"><use href="#i-check-circle"/></svg> Sim</span></div>
+          <div class="compare-cell center"><span class="compare-no"><svg class="icon-sm"><use href="#i-x-circle"/></svg> Padrão comum</span></div>
+        </div>
+        <div class="compare-row">
+          <div class="compare-cell label">15+ vitaminas e minerais</div>
+          <div class="compare-cell menocare"><span class="compare-yes"><svg class="icon-sm"><use href="#i-check-circle"/></svg> Sim</span></div>
+          <div class="compare-cell center"><span class="compare-no"><svg class="icon-sm"><use href="#i-x-circle"/></svg> 3-5 ativos</span></div>
+        </div>
+        <div class="compare-row">
+          <div class="compare-cell label">Garantia incondicional</div>
+          <div class="compare-cell menocare"><span class="compare-yes"><svg class="icon-sm"><use href="#i-check-circle"/></svg> 30 dias</span></div>
+          <div class="compare-cell center"><span class="compare-no"><svg class="icon-sm"><use href="#i-x-circle"/></svg> Raro</span></div>
+        </div>
+        <div class="compare-row">
+          <div class="compare-cell label">Compra em casa</div>
+          <div class="compare-cell menocare"><span class="compare-yes"><svg class="icon-sm"><use href="#i-check-circle"/></svg> Frete grátis</span></div>
+          <div class="compare-cell center"><span class="compare-no"><svg class="icon-sm"><use href="#i-x-circle"/></svg> Vai à farmácia</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section section-lg testimonials-section">
+    <div class="container">
+      <div class="section-intro">
+        <span class="section-eyebrow">Depoimentos</span>
+        <h2>O que nossas clientes dizem</h2>
+        <p>Veja a opinião de quem já é cliente do MenoCare.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <p class="testimonial-text">"Comprei sem muita expectativa e me surpreendi com a qualidade. Me sinto muito bem tomando todos os dias e já virou parte da minha rotina. Recomendo!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">R</div>
+            <div class="testimonial-info">
+              <div class="testimonial-name">Rosângela M.</div>
+              <div class="testimonial-meta">52 anos · São Paulo, SP</div>
+              <span class="testimonial-verified"><svg><use href="#i-check"/></svg> Compra Verificada</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-text">"Adorei desde a primeira compra. Fácil de tomar, sem gosto ruim, e o atendimento foi super atencioso. Já indiquei pra várias amigas da minha idade."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">A</div>
+            <div class="testimonial-info">
+              <div class="testimonial-name">Andréa S.</div>
+              <div class="testimonial-meta">49 anos · Belo Horizonte, MG</div>
+              <span class="testimonial-verified"><svg><use href="#i-check"/></svg> Compra Verificada</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-text">"Minha filha me indicou e não me arrependo. Produto de ótima qualidade, me sinto muito bem e satisfeita. Já estou no segundo pote e pretendo continuar."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">M</div>
+            <div class="testimonial-info">
+              <div class="testimonial-name">Marlene C.</div>
+              <div class="testimonial-meta">56 anos · Curitiba, PR</div>
+              <span class="testimonial-verified"><svg><use href="#i-check"/></svg> Compra Verificada</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-text">"Procurava uma opção natural e gostei muito do MenoCare. Produto de qualidade, entrega rápida e me sinto bem com a compra. Super recomendo!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">L</div>
+            <div class="testimonial-info">
+              <div class="testimonial-name">Luciana P.</div>
+              <div class="testimonial-meta">51 anos · Porto Alegre, RS</div>
+              <span class="testimonial-verified"><svg><use href="#i-check"/></svg> Compra Verificada</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-text">"Estava em dúvida, mas resolvi experimentar e gostei muito. Me sinto bem comigo mesma e satisfeita com o produto. Hoje já estou no segundo kit."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">C</div>
+            <div class="testimonial-info">
+              <div class="testimonial-name">Cristina B.</div>
+              <div class="testimonial-meta">54 anos · Salvador, BA</div>
+              <span class="testimonial-verified"><svg><use href="#i-check"/></svg> Compra Verificada</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-text">"O atendimento foi excelente, o produto chegou rápido e bem embalado. Estou muito satisfeita com a compra e recomendo pra qualquer mulher."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">S</div>
+            <div class="testimonial-info">
+              <div class="testimonial-name">Silvia O.</div>
+              <div class="testimonial-meta">50 anos · Fortaleza, CE</div>
+              <span class="testimonial-verified"><svg><use href="#i-check"/></svg> Compra Verificada</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ KITS ============ -->
+  <section class="section section-lg kits-section" id="kits">
+    <div class="container">
+      <div class="section-intro">
+        <span class="section-eyebrow">Escolha Seu Kit</span>
+        <h2>Kits com desconto para uso contínuo</h2>
+        <p>Para melhor aproveitamento, recomenda-se o uso contínuo. Por isso, os kits maiores trazem o melhor custo-benefício.</p>
+      </div>
+
+      <div class="kits-grid kits-grid-4">
+        <div class="kit-card">
+          <img class="kit-image" src="images/menocare1frasco.webp" alt="MenoCare - 1 pote" width="640" height="918" loading="lazy" decoding="async">
+          <div class="kit-title">Tratamento de</div>
+          <div class="kit-duration">1 mês</div>
+          <div class="kit-pots">1 POTE · R$ 147,00</div>
+          <div class="kit-price-installment">por apenas 12x de</div>
+          <div class="kit-installment-value"><small>R$</small>15,12</div>
+          <div class="kit-cash">ou <strong>R$ 147,00</strong> à vista</div>
+          <a href="https://seguro.menocareoficial.shop/r/IXN4M899F1" class="btn btn-primary btn-block kit-cta">COMPRAR AGORA <svg class="icon-sm"><use href="#i-arrow-right"/></svg></a>
+          <img class="kit-freight-img" src="images/imgi_1_selo-fretegratis.webp" alt="Frete grátis para todo o Brasil" width="236" height="41" loading="lazy">
+        </div>
+
+        <div class="kit-card">
+          <img class="kit-image" src="images/imgi_1_kit03_secaoKits.webp" alt="MenoCare - Kit 3 potes" width="483" height="600" loading="lazy" decoding="async">
+          <div class="kit-title">Tratamento de</div>
+          <div class="kit-duration">3 meses</div>
+          <div class="kit-pots">3 POTES · R$ 99,00 cada</div>
+          <div class="kit-savings">VOCÊ ECONOMIZA R$ 144</div>
+          <div class="kit-price-installment">por apenas 12x de</div>
+          <div class="kit-installment-value"><small>R$</small>30,55</div>
+          <div class="kit-cash">ou <strong>R$ 297,00</strong> à vista</div>
+          <a href="https://seguro.menocareoficial.shop/r/AVMCGALRP3" class="btn btn-primary btn-block kit-cta">COMPRAR AGORA <svg class="icon-sm"><use href="#i-arrow-right"/></svg></a>
+          <img class="kit-freight-img" src="images/imgi_1_selo-fretegratis.webp" alt="Frete grátis para todo o Brasil" width="236" height="41" loading="lazy">
+        </div>
+
+        <div class="kit-card featured">
+          <div class="kit-badge"><svg><use href="#i-star"/></svg> MAIS VENDIDO</div>
+          <img class="kit-image" src="images/imgi_1_kit05_secaoKits.webp" alt="MenoCare - Kit 5 potes" width="713" height="600" loading="lazy" decoding="async">
+          <div class="kit-title">Tratamento de</div>
+          <div class="kit-duration">5 meses</div>
+          <div class="kit-pots">5 POTES · R$ 79,40 cada</div>
+          <div class="kit-savings">VOCÊ ECONOMIZA R$ 338</div>
+          <div class="kit-price-installment">por apenas 12x de</div>
+          <div class="kit-installment-value"><small>R$</small>40,84</div>
+          <div class="kit-cash">ou <strong>R$ 397,00</strong> à vista</div>
+          <a href="https://seguro.menocareoficial.shop/r/6FC4YSRQDZ" class="btn btn-primary btn-block kit-cta">COMPRAR AGORA <svg class="icon-sm"><use href="#i-arrow-right"/></svg></a>
+          <img class="kit-freight-img" src="images/imgi_1_selo-fretegratis.webp" alt="Frete grátis para todo o Brasil" width="236" height="41" loading="lazy">
+        </div>
+
+        <div class="kit-card">
+          <div class="kit-badge gold"><svg><use href="#i-award"/></svg> MAIOR ECONOMIA</div>
+          <img class="kit-image" src="images/imgi_23_kit12_secaoKits-1024x569-1.webp" alt="MenoCare - Kit 12 potes" width="1024" height="569" loading="lazy" decoding="async">
+          <div class="kit-title">Tratamento de</div>
+          <div class="kit-duration">1 ano</div>
+          <div class="kit-pots">12 POTES · R$ 58,08 cada</div>
+          <div class="kit-savings">VOCÊ ECONOMIZA R$ 1.067</div>
+          <div class="kit-price-installment">por apenas 12x de</div>
+          <div class="kit-installment-value"><small>R$</small>71,90</div>
+          <div class="kit-cash">ou <strong>R$ 697,00</strong> à vista</div>
+          <a href="https://seguro.menocareoficial.shop/r/AQUCH57AQB" class="btn btn-primary btn-block kit-cta">COMPRAR AGORA <svg class="icon-sm"><use href="#i-arrow-right"/></svg></a>
+          <img class="kit-freight-img" src="images/imgi_1_selo-fretegratis.webp" alt="Frete grátis para todo o Brasil" width="236" height="41" loading="lazy">
+        </div>
+      </div>
+
+      <p style="text-align: center; margin-top: 2.5rem; color: var(--text-muted); font-size: 0.9rem;">
+        Pagamento 100% seguro · Pix, Cartão e Boleto · Parcele em até 12x
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ GARANTIA ============ -->
+  <section class="section guarantee-section">
+    <div class="container">
+      <div class="guarantee-grid">
+        <div>
+          <img class="guarantee-image" src="images/imgi_1_imagem_secaoGarantia.webp" alt="Selo de garantia 30 dias" width="400" height="400" loading="lazy" decoding="async">
+        </div>
+        <div class="guarantee-content">
+          <span class="section-eyebrow">Garantia Total</span>
+          <h2>30 dias para experimentar sem riscos</h2>
+          <p>Confiamos tanto na qualidade do MenoCare que oferecemos uma garantia incondicional: experimente por <strong>30 dias</strong> seguindo as orientações.</p>
+
+          <div class="guarantee-quote">
+            "Se você não sentir os benefícios, devolvemos 100% do valor pago. Sem perguntas, sem complicação."
+          </div>
+
+          <p>Basta enviar um e-mail para <strong>contato@menocareoficial.shop</strong> dentro do prazo, e a devolução é processada de forma rápida e segura.</p>
+
+          <a href="#kits" class="btn btn-primary">EXPERIMENTAR SEM RISCO <svg class="icon-sm"><use href="#i-arrow-right"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section section-lg faq-section">
+    <div class="container">
+      <div class="section-intro">
+        <span class="section-eyebrow">Dúvidas Frequentes</span>
+        <h2>Tudo o que você precisa saber</h2>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item" open>
+          <summary>O que é o MenoCare e como ele funciona? <svg class="icon"><use href="#i-chevron-down"/></svg></summary>
+          <div class="faq-content">O MenoCare é um suplemento alimentar com vitaminas, minerais e ativos naturais cuidadosamente selecionados para apoiar o bem-estar feminino durante a menopausa. Sua fórmula auxilia o organismo nessa fase de transição, contribuindo para a sensação de conforto, disposição e qualidade de vida.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Em quanto tempo verei resultados? <svg class="icon"><use href="#i-chevron-down"/></svg></summary>
+          <div class="faq-content">Cada organismo é único, mas muitas mulheres relatam mudanças positivas nas primeiras semanas de uso contínuo. Para os melhores resultados, recomendamos o uso por pelo menos 3 meses, conforme orientação no rótulo.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Como tomar o MenoCare? <svg class="icon"><use href="#i-chevron-down"/></svg></summary>
+          <div class="faq-content">A recomendação é de 2 cápsulas por dia, preferencialmente pela manhã, junto a uma refeição. Para resultados ótimos, recomendamos tratamento contínuo de 3 meses ou mais.</div>
+        </details>
+        <details class="faq-item">
+          <summary>O MenoCare tem hormônios? <svg class="icon"><use href="#i-chevron-down"/></svg></summary>
+          <div class="faq-content"><strong>Não.</strong> O MenoCare é uma fórmula 100% natural, sem hormônios sintéticos. É um suplemento alimentar baseado em vitaminas, minerais e ativos vegetais.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Possui contraindicações ou efeitos adversos? <svg class="icon"><use href="#i-chevron-down"/></svg></summary>
+          <div class="faq-content">Por ser um suplemento alimentar de fórmula natural, não há registro de efeitos adversos significativos para uso conforme orientado. Mesmo assim, recomendamos que mulheres gestantes, lactantes ou em uso de medicamentos consultem seu médico antes do início do uso.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Qual a composição completa? <svg class="icon"><use href="#i-chevron-down"/></svg></summary>
+          <div class="faq-content">O MenoCare contém Laranja Moro (rica em antocianinas), Cálcio, Cobre, Manganês, Vitaminas A, C, D, E e Complexo B (Tiamina, Riboflavina, Niacina, Piridoxina, Ácido Pantotênico). A composição completa, modo de uso e advertências constam no rótulo do produto.</div>
+        </details>
+        <details class="faq-item">
+          <summary>É vendido em farmácia? <svg class="icon"><use href="#i-chevron-down"/></svg></summary>
+          <div class="faq-content">O MenoCare é vendido <strong>exclusivamente online</strong> através do nosso site oficial. Isso garante a autenticidade do produto, a melhor condição comercial direto do fabricante e a validade da nossa garantia.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Qual o prazo de entrega? <svg class="icon"><use href="#i-chevron-down"/></svg></summary>
+          <div class="faq-content">O prazo médio é de <strong>3 a 7 dias úteis</strong> para Sul e Sudeste e de até 9 dias úteis para as demais regiões, contados a partir da confirmação do pagamento. O frete é grátis para todo o Brasil.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Como funciona a garantia de 30 dias? <svg class="icon"><use href="#i-chevron-down"/></svg></summary>
+          <div class="faq-content">Se em 30 dias você não estiver satisfeita com os resultados, basta nos enviar um e-mail solicitando o reembolso. Devolvemos 100% do valor pago, sem burocracia.</div>
+        </details>
+        <details class="faq-item">
+          <summary>O pagamento é seguro? <svg class="icon"><use href="#i-chevron-down"/></svg></summary>
+          <div class="faq-content">Sim. O processamento é realizado por gateway de pagamento certificado, com criptografia ponta-a-ponta. Nós <strong>não armazenamos</strong> dados de cartão. Aceitamos Pix, cartão de crédito (em até 12x) e boleto bancário.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FINAL CTA ============ -->
+  <section class="section section-lg final-cta">
+    <div class="container final-cta-inner">
+      <h2>Comece hoje a sua <em>nova fase</em> com mais bem-estar</h2>
+      <p>Milhares de mulheres já incluíram o MenoCare na sua rotina. Você merece esse cuidado também.</p>
+      <a href="#kits" class="btn btn-primary btn-lg">QUERO MEU MENOCARE <svg class="icon-sm"><use href="#i-arrow-right"/></svg></a>
+      <div class="final-cta-perks">
+        <span><svg><use href="#i-truck"/></svg> Frete grátis</span>
+        <span><svg><use href="#i-shield"/></svg> Garantia 30 dias</span>
+        <span><svg><use href="#i-credit-card"/></svg> Parcele em 12x</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo"><img src="images/imgi_1_default.webp" alt="MenoCare" width="120" height="47" loading="lazy"></div>
+          <p style="font-size: 0.85rem; line-height: 1.6;">MenoCare é um suplemento alimentar para o bem-estar feminino na fase da menopausa, com vitaminas, minerais e ativos naturais.</p>
+        </div>
+
+        <div>
+          <h4>Atendimento</h4>
+          <a href="mailto:contato@menocareoficial.shop">contato@menocareoficial.shop</a><br>
+          <a href="#" data-modal-open="contact">Fale com a gente</a><br>
+          <a href="#" data-modal-open="tracking">Rastrear pedido</a>
+        </div>
+
+        <div>
+          <h4>Institucional</h4>
+          <a href="#privacidade" data-modal-open="privacy">Política de Privacidade</a><br>
+          <a href="#termos" data-modal-open="terms">Termos e Condições</a><br>
+          <a href="#troca" data-modal-open="exchange">Política de Troca</a>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer">
+        <p><strong>AVISO LEGAL:</strong> Este produto é um <strong>suplemento alimentar</strong>. <strong>Não é medicamento</strong> e não se destina a prevenir, tratar ou curar nenhuma doença. Os resultados podem variar de pessoa para pessoa. Em caso de dúvidas, consulte seu médico ou nutricionista. Gestantes, lactantes, pessoas com doenças pré-existentes ou em uso de medicamentos devem consultar profissional de saúde antes do consumo. Manter fora do alcance de crianças.</p>
+        <p><strong>Os depoimentos</strong> apresentados são experiências individuais de consumidores que adquiriram o produto e não representam garantia de resultados. Cada organismo responde de forma única ao uso de qualquer suplemento alimentar.</p>
+        <p><strong>Empresa responsável:</strong> [RAZAO_SOCIAL_AQUI] — CNPJ [CNPJ_AQUI] — [ENDERECO_COMPLETO_AQUI]</p>
+      </div>
+
+      <div class="footer-bottom">© 2026 MenoCare. Todos os direitos reservados.</div>
+    </div>
+  </footer>
+
+  <!-- ============ STICKY MOBILE CTA ============ -->
+  <div class="sticky-cta">
+    <a href="#kits" class="btn btn-primary">QUERO COMPRAR AGORA <svg class="icon-sm"><use href="#i-arrow-right"/></svg></a>
+  </div>
+
+  <!-- ============ MODAIS (privacidade, termos, troca) ============ -->
+  <div class="modal" id="modal-privacy" role="dialog" aria-modal="true" aria-labelledby="modal-privacy-title">
+    <div class="modal-overlay" data-modal-close></div>
+    <div class="modal-content">
+      <button class="modal-close" data-modal-close aria-label="Fechar"><svg class="icon"><use href="#i-x"/></svg></button>
+      <div class="modal-body">
+        <h2 id="modal-privacy-title">Política de Privacidade</h2>
+        <p class="modal-meta">Última atualização: 28 de maio de 2026</p>
+
+        <p>A presente Política de Privacidade descreve como o <strong>MenoCare</strong> coleta, utiliza, armazena e protege as informações pessoais dos visitantes e clientes do nosso site, em conformidade com a <strong>Lei Geral de Proteção de Dados (Lei nº 13.709/2018 — LGPD)</strong>.</p>
+
+        <h3>1. Controlador dos dados</h3>
+        <p><strong>[RAZAO_SOCIAL_AQUI]</strong><br>CNPJ: [CNPJ_AQUI]<br>Endereço: [ENDERECO_COMPLETO_AQUI]<br>E-mail: contato@menocareoficial.shop</p>
+
+        <h3>2. Dados coletados</h3>
+        <p>Quando você realiza uma compra ou entra em contato, coletamos: nome completo, CPF, endereço de entrega, e-mail e telefone. Dados de cartão de crédito <strong>não são armazenados</strong> pelo nosso site — são processados diretamente pelo gateway de pagamento certificado.</p>
+        <p>Coletamos automaticamente: endereço IP, tipo de navegador, páginas visitadas, origem do acesso.</p>
+
+        <h3>3. Como usamos seus dados</h3>
+        <ul>
+          <li>Processar e entregar pedidos</li>
+          <li>Enviar atualizações sobre o status do pedido</li>
+          <li>Prestar suporte ao cliente</li>
+          <li>Cumprir obrigações legais</li>
+          <li>Análise estatística e remarketing (Google Ads, Meta Ads)</li>
+        </ul>
+
+        <h3>4. Compartilhamento</h3>
+        <p>Compartilhamos seus dados <strong>somente</strong> com transportadoras (entrega), gateway de pagamento (transação) e plataformas de marketing (dados anonimizados). <strong>Não vendemos seus dados</strong> a terceiros.</p>
+
+        <h3>5. Seus direitos (LGPD)</h3>
+        <p>Você pode, a qualquer momento: acessar seus dados, corrigir, atualizar, excluir, revogar consentimento, solicitar portabilidade. Para exercer, envie e-mail para <strong>contato@menocareoficial.shop</strong>. Respondemos em até 15 dias úteis.</p>
+
+        <h3>6. Segurança e cookies</h3>
+        <p>Adotamos medidas técnicas para proteger seus dados. Usamos cookies para manter você logada, analisar tráfego e personalizar anúncios. Você pode desabilitar nas configurações do navegador.</p>
+
+        <h3>7. Retenção</h3>
+        <p>Mantemos seus dados pelo tempo necessário para cumprir as finalidades aqui descritas ou conforme exigido por lei (5 anos para dados fiscais).</p>
+
+        <h3>8. Contato</h3>
+        <p>Dúvidas? E-mail: <strong>contato@menocareoficial.shop</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-terms" role="dialog" aria-modal="true" aria-labelledby="modal-terms-title">
+    <div class="modal-overlay" data-modal-close></div>
+    <div class="modal-content">
+      <button class="modal-close" data-modal-close aria-label="Fechar"><svg class="icon"><use href="#i-x"/></svg></button>
+      <div class="modal-body">
+        <h2 id="modal-terms-title">Termos e Condições de Uso</h2>
+        <p class="modal-meta">Última atualização: 28 de maio de 2026</p>
+
+        <p>Ao acessar e/ou comprar neste site, você concorda integralmente com os termos abaixo. Leia com atenção.</p>
+
+        <h3>1. Empresa responsável</h3>
+        <p><strong>[RAZAO_SOCIAL_AQUI]</strong><br>CNPJ: [CNPJ_AQUI]<br>Endereço: [ENDERECO_COMPLETO_AQUI]<br>Contato: contato@menocareoficial.shop</p>
+
+        <h3>2. Sobre o produto</h3>
+        <p>O <strong>MenoCare é um suplemento alimentar</strong>, composto por vitaminas, minerais e ativos naturais, registrado conforme as normas da ANVISA.</p>
+        <ul>
+          <li>O MenoCare <strong>NÃO é um medicamento</strong></li>
+          <li>Não se destina a prevenir, tratar ou curar nenhuma doença</li>
+          <li>Os resultados podem variar de pessoa para pessoa</li>
+          <li>Gestantes, lactantes ou pessoas com condições médicas devem consultar profissional de saúde antes do uso</li>
+        </ul>
+
+        <h3>3. Preços e pagamento</h3>
+        <p>Preços em Reais (BRL). Formas de pagamento: cartão de crédito (em até 12x), Pix, boleto bancário. O valor cobrado é sempre o exibido no momento da finalização da compra.</p>
+
+        <h3>4. Entrega</h3>
+        <p>Realizamos entregas para todo o Brasil com <strong>frete gratuito</strong>. Prazos:</p>
+        <ul>
+          <li><strong>Sul e Sudeste:</strong> 3 a 7 dias úteis</li>
+          <li><strong>Demais regiões:</strong> 5 a 9 dias úteis</li>
+        </ul>
+        <p>Após o envio, você recebe o código de rastreio por e-mail.</p>
+
+        <h3>5. Uso do site</h3>
+        <p>Você concorda em fornecer informações verdadeiras, não usar o site para fins ilegais e respeitar os direitos de propriedade intelectual.</p>
+
+        <h3>6. Limitação de responsabilidade</h3>
+        <p>Os depoimentos refletem experiências individuais e <strong>não constituem garantia de resultados</strong>. Não nos responsabilizamos por uso inadequado em desacordo com as orientações do rótulo.</p>
+
+        <h3>7. Foro</h3>
+        <p>Para questões judiciais, fica eleito o foro da Comarca de [CIDADE_FORO], salvo determinação legal em contrário.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-exchange" role="dialog" aria-modal="true" aria-labelledby="modal-exchange-title">
+    <div class="modal-overlay" data-modal-close></div>
+    <div class="modal-content">
+      <button class="modal-close" data-modal-close aria-label="Fechar"><svg class="icon"><use href="#i-x"/></svg></button>
+      <div class="modal-body">
+        <h2 id="modal-exchange-title">Política de Troca e Devolução</h2>
+        <p class="modal-meta">Última atualização: 28 de maio de 2026</p>
+
+        <h3>1. Direito de arrependimento (CDC)</h3>
+        <p>Conforme o Código de Defesa do Consumidor (art. 49), você tem <strong>7 dias corridos</strong> a partir do recebimento para desistir da compra, sem necessidade de justificativa. O produto deve ser devolvido sem uso e na embalagem original.</p>
+
+        <h3>2. Garantia de satisfação 30 dias</h3>
+        <p>Oferecemos uma <strong>garantia adicional de 30 dias</strong>: se você não estiver satisfeita com os resultados após esse período, devolvemos 100% do valor pago.</p>
+        <p>Basta enviar e-mail para <strong>contato@menocareoficial.shop</strong> solicitando o reembolso. Sem perguntas, sem burocracia.</p>
+
+        <h3>3. Defeito ou avaria</h3>
+        <p>Em caso de produto com defeito de fabricação ou avaria de transporte, entre em contato em até 7 dias do recebimento. Faremos a troca ou reembolso integral sem custo adicional para você.</p>
+
+        <h3>4. Cancelamento</h3>
+        <p>Pedidos podem ser cancelados antes do envio sem custos. Após o envio, aplica-se a política de devolução descrita acima.</p>
+
+        <h3>5. Como solicitar</h3>
+        <p>Envie um e-mail para <strong>contato@menocareoficial.shop</strong> com:</p>
+        <ul>
+          <li>Número do pedido</li>
+          <li>Motivo da devolução</li>
+          <li>Foto do produto (em caso de defeito)</li>
+        </ul>
+        <p>Responderemos em até 2 dias úteis com instruções para o envio.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-contact" role="dialog" aria-modal="true" aria-labelledby="modal-contact-title">
+    <div class="modal-overlay" data-modal-close></div>
+    <div class="modal-content modal-content-sm">
+      <button class="modal-close" data-modal-close aria-label="Fechar"><svg class="icon"><use href="#i-x"/></svg></button>
+      <div class="modal-body">
+        <h2 id="modal-contact-title">Fale com a gente</h2>
+        <p>Estamos disponíveis pra te ajudar com qualquer dúvida:</p>
+        <p><strong>E-mail:</strong><br><a href="mailto:contato@menocareoficial.shop">contato@menocareoficial.shop</a></p>
+        <p><strong>Horário de atendimento:</strong><br>Segunda a sexta, das 9h às 18h.</p>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 1.5rem;">Respondemos todas as mensagens em até 24h úteis.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal-tracking" role="dialog" aria-modal="true" aria-labelledby="modal-tracking-title">
+    <div class="modal-overlay" data-modal-close></div>
+    <div class="modal-content modal-content-sm">
+      <button class="modal-close" data-modal-close aria-label="Fechar"><svg class="icon"><use href="#i-x"/></svg></button>
+      <div class="modal-body">
+        <h2 id="modal-tracking-title">Rastrear pedido</h2>
+        <p>Insira seu código de rastreio dos Correios pra acompanhar sua entrega:</p>
+        <p style="margin: 1.5rem 0;">
+          <a href="https://www.linkcorreios.com.br/" target="_blank" rel="noopener" class="btn btn-primary">RASTREAR NOS CORREIOS <svg class="icon-sm"><use href="#i-arrow-right"/></svg></a>
+        </p>
+        <p style="font-size: 0.9rem; color: var(--text-muted);">O código de rastreio é enviado por e-mail assim que seu pedido sai pra entrega. Se não encontrou, verifique sua caixa de spam ou nos contate em <a href="mailto:contato@menocareoficial.shop">contato@menocareoficial.shop</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ JS ============ -->
+  <script>
+    // FAQ accordion
+    const faqs = document.querySelectorAll('.faq-item');
+    faqs.forEach(faq => {
+      faq.addEventListener('toggle', () => {
+        if (faq.open) {
+          faqs.forEach(other => {
+            if (other !== faq && other.open) other.open = false;
+          });
+        }
+      });
+    });
+
+    // Smooth scroll (ignora links de modal)
+    document.querySelectorAll('a[href^="#"]:not([data-modal-open])').forEach(a => {
+      a.addEventListener('click', (e) => {
+        const href = a.getAttribute('href');
+        if (href === '#' || href.length < 2) return;
+        const target = document.querySelector(href);
+        if (target && !target.classList.contains('modal')) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // ===== MODAL SYSTEM =====
+    const modalMap = {
+      privacy: 'modal-privacy',
+      terms: 'modal-terms',
+      exchange: 'modal-exchange',
+      contact: 'modal-contact',
+      tracking: 'modal-tracking',
+    };
+    const hashMap = {
+      '#privacidade': 'privacy',
+      '#termos': 'terms',
+      '#troca': 'exchange',
+      '#contato': 'contact',
+      '#rastreio': 'tracking',
+    };
+    const hashReverse = { privacy: '#privacidade', terms: '#termos', exchange: '#troca', contact: '#contato', tracking: '#rastreio' };
+
+    function openModal(key) {
+      const id = modalMap[key];
+      if (!id) return;
+      const modal = document.getElementById(id);
+      if (!modal) return;
+      modal.classList.add('open');
+      document.body.style.overflow = 'hidden';
+      // update URL hash for shareable links / Google Ads compliance
+      if (hashReverse[key] && location.hash !== hashReverse[key]) {
+        history.replaceState(null, '', hashReverse[key]);
+      }
+    }
+    function closeModal() {
+      document.querySelectorAll('.modal.open').forEach(m => m.classList.remove('open'));
+      document.body.style.overflow = '';
+      if (location.hash && hashMap[location.hash]) {
+        history.replaceState(null, '', location.pathname + location.search);
+      }
+    }
+    // Open triggers
+    document.querySelectorAll('[data-modal-open]').forEach(el => {
+      el.addEventListener('click', (e) => {
+        e.preventDefault();
+        openModal(el.dataset.modalOpen);
+      });
+    });
+    // Close triggers
+    document.querySelectorAll('[data-modal-close]').forEach(el => {
+      el.addEventListener('click', closeModal);
+    });
+    // ESC to close
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+    // Open via URL hash on load
+    function handleHash() {
+      const key = hashMap[location.hash];
+      if (key) openModal(key);
+    }
+    window.addEventListener('hashchange', handleHash);
+    handleHash();
+  </script>
+
+</body>
+</html>

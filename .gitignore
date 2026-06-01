@@ -1,0 +1,16 @@
+# NUNCA subir arquivos de estratégia (expõe a operação publicamente)
+ESTRATEGIA_GOOGLE_ADS.md
+LEIA-ME.md
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Deploy script (fica só local)
+deploy.bat
+
+# Editores
+.vscode/
+.idea/
+*.log
