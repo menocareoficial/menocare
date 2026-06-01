@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "menocare",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8099", "--directory", "C:\\Users\\Eliezer\\Desktop\\MENOCARECLONE\\NOVO_SITE"],
+      "port": 8099
+    }
+  ]
+}
